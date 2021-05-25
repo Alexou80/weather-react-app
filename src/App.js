@@ -100,7 +100,7 @@ function App() {
 
   useEffect(() => {
     getWeather();
-  }, [getWeather]);
+  }, );
 
   const onSubmit = (e) => {
     e.preventDefault();
@@ -152,7 +152,7 @@ function App() {
           </div>
         ))}
       </div>
-      <footer>coded by Alexandra Philips <a href="https://github.com/Alexou80/weather-react-app" open source ></a></footer>
+      <footer>coded by Alexandra Philips <a href="https://github.com/Alexou80/weather-react-app" ></a></footer>
     </div>
   );
 }
