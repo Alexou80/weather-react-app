@@ -108,9 +108,7 @@ function App() {
  }; 
   
 
-  
-
-  
+<button>Search</button>  
 
   console.log('forecasts', forecasts);
 
