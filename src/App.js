@@ -98,14 +98,19 @@ function App() {
       });
   };
 
-  useEffect(() => {
+ useEffect(() => {
     getWeather();
   }, );
 
   const onSubmit = (e) => {
     e.preventDefault();
-    getWeather();
-  };
+   getWeather();
+ }; 
+  
+
+  
+
+  
 
   console.log('forecasts', forecasts);
 
@@ -121,7 +126,7 @@ function App() {
               value={inputValue}
               onChange={(e) => setInputValue(e.target.value)}
             />
-            <button>Search</button>
+          
           </div>
         </form>
         {temp ? (
@@ -155,6 +160,6 @@ function App() {
       <footer>coded by Alexandra Philips </footer>
     </div>
   );
-}
+        }
 
 export default App;
