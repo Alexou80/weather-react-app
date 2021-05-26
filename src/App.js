@@ -152,9 +152,10 @@ function App() {
           </div>
         ))}
       </div>
-      <footer>footer ici...</footer>
+      <footer>coded by Alexandra...</footer>
     </div>
   );
 }
 
 export default App;
+
