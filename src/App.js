@@ -152,7 +152,15 @@ function App() {
           </div>
         ))}
       </div>
-      <footer>coded by Alexandra...</footer>
+      <footer>This project was coded by{" "}
+          Alexandra Philips{" "}
+          and is{" "}
+          <a
+            href="https://github.com/Alexou80/weather-react-app"
+            target="_blank"
+            rel="noopener noreferrer"
+          >open-sourced on GitHub
+          </a>{" "}.</footer>
     </div>
   );
 }
