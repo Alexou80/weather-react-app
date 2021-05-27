@@ -3,6 +3,7 @@
   width: 800px;
   height: 600px;
   margin: 0 auto;
+ background-image: linear-gradient(to top, #9795f0 0%, #fbc8d4 100%);;
 }
 .top {
   width: 100%;
